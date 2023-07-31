@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 2
 - Item 3
 - Item 4
-- Item 5
+
 
 <h2>Installation Steps</h2>
 
@@ -38,27 +38,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![item 1](https://github.com/DGajar/osticket-prereqs/assets/140901911/e500a7ce-8027-4197-be74-11ab4a38e992)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When I was setting up the osTicket system you needed to create a virtual machine in Azure along with a resource group. After creating the virtual machine you must download the installation files in the c drive in order to start the osTicket system.
 </p>
 <br />
 
-<p>
 ![item 2](https://github.com/DGajar/osticket-prereqs/assets/140901911/dc59f914-94a8-4ab4-bc12-a44b17463951)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once everything is downloaded, you must create a profile on osTicket as an admin in order to assign roles to team members. Before we log in we must make sure that our php_imap.dll, php_intl.dll, and php_opcache are clicked as “enable” in PHP extensions, this is to improve features in osTicket.
 </p>
 <br />
 
 <p>
-![item 3](https://github.com/DGajar/osticket-prereqs/assets/140901911/3726665e-7b0e-4286-966c-e0d55eba1208)
+
+![item 3](https://github.com/DGajar/osticket-prereqs/assets/140901911/1fa8a4b9-9822-4930-a61e-24f7434d738f)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+After logging in, I assigned roles such as Supreme Admin to have access to all tickets and tasks, who can help alleviate workload in each department by assigning roles to team members  who can work on different tech issues. 
 <br />
 
 </p>
-![item 4](https://github.com/DGajar/osticket-prereqs/assets/140901911/14d316f2-2cc0-4de1-ac6b-ade31473d117)
+<p>
+  
+</p>
+<p>
+
+
+<p>
+<p>
+
+![item 4](https://github.com/DGajar/osticket-prereqs/assets/140901911/1e54e2f0-df28-4cfd-b18f-904c94a0b348)
+
+Following the SLA plan, we implemented this system to prioritize tech issues from critical to less severe.  For example, if the office has had a “Business Critical Outage” this means their systems are down and 
+needs to be up asap. This would be considered at (SEV-A) for critical. Another example for our SLA system, if an employee needs a password reset that would be considered a (SEV-C) for less severe. Each issue for 
+help desk administrators allows them to prioritize which category of SLA needs to work on first before the ticket closes.
 </p>
 <br />
+
+  
+
+
