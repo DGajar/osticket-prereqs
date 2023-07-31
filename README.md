@@ -20,12 +20,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Prerequisites/Installation, Post-Installation configuration, Ticket Lifecycle Examples  </h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
+- Item 1 Prerequisites/ Installation
+- Item 2 Post-Installation Configuration 
+- Item 3 Assigning Roles on osTicket 
+- Item 4 Ticket Lifecycle Examples
 
 
 <h2>Installation Steps</h2>
